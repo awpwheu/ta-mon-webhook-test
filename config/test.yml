@@ -1,6 +1,6 @@
 endpoints:
   - name: test-endpoint
     url: https://example.com/health
-    interval: 30s  # geändert für Webhook-Test
+    interval: 45s  # geändert für Webhook-Test
     conditions:
       - "[STATUS] == 200"
