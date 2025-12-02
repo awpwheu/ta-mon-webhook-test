@@ -1,0 +1,6 @@
+endpoints:
+  - name: test-endpoint
+    url: https://example.com/health
+    interval: 60s
+    conditions:
+      - "[STATUS] == 200"
